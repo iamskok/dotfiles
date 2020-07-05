@@ -1,0 +1,12 @@
+[user]
+  name = Vladimir Skok
+  email = skok@vova.io
+
+[github]
+  user = iamskok
+
+[core]
+  editor = code --wait
+
+[commit]
+  template = ~/.gitmessage
