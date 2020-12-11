@@ -69,12 +69,17 @@ DISABLE_UPDATE_PROMPT="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  colorize
+  copydir
+  copyfile
+  docker
+  docker-compose
+  extract
   git
   last-working-dir
-  history
+  z
   zsh-completions
   zsh-syntax-highlighting
-  z
 )
 
 source $ZSH/oh-my-zsh.sh
