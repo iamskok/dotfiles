@@ -1,0 +1,11 @@
+[character]
+success_symbol = "[❯](bold green) "
+error_symbol = "[❯](bold red) "
+
+[cmd_duration]
+min_time = 500
+format = "⏱  [$duration](bold yellow)"
+
+[directory]
+truncation_length = 5
+truncation_symbol = "…/"
