@@ -3,7 +3,7 @@
   email = skok@vova.io
 
 [pull]
-	rebase = true
+  rebase = true
 
 [github]
   user = iamskok
