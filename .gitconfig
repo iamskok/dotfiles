@@ -2,6 +2,9 @@
   name = Vladimir Skok
   email = skok@vova.io
 
+[pull]
+	rebase = true
+
 [github]
   user = iamskok
 
