@@ -28,3 +28,14 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# open excalidraw design window
+function design.start() {
+  docker run --rm -dit --name excalidraw -p 127.0.0.1:9280:80 excalidraw/excalidraw:latest
+  open http://localhost:9280
+}
+
+# close excalidraw design window
+function design.stop() {
+  docker container stop excalidraw
+}
