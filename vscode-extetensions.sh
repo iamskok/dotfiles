@@ -1,0 +1,41 @@
+# Import/export VSCode extensions
+# https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list
+
+code --install-extension aaron-bond.better-comments
+code --install-extension ahmadawais.shades-of-purple
+code --install-extension alefragnani.Bookmarks
+code --install-extension alefragnani.project-manager
+code --install-extension bungcip.better-toml
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension GitHub.copilot-nightly
+code --install-extension gurumukhi.selected-lines-count
+code --install-extension hashicorp.terraform
+code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension JuanBlanco.solidity
+code --install-extension lokalise.i18n-ally
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mikestead.dotenv
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension naumovs.color-highlight
+code --install-extension oderwat.indent-rainbow
+code --install-extension Orta.vscode-jest
+code --install-extension Ponicode.ponicode
+code --install-extension Prisma.prisma
+code --install-extension qezhu.gitlink
+code --install-extension rido3.wordcount
+code --install-extension silvenon.mdx
+code --install-extension SirTori.indenticator
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension stylelint.vscode-stylelint
+code --install-extension tomoki1207.pdf
+code --install-extension Tyriar.sort-lines
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension WakaTime.vscode-wakatime
+code --install-extension WallabyJs.quokka-vscode
+code --install-extension withfig.fig
+code --install-extension wix.vscode-import-cost
