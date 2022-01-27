@@ -169,3 +169,18 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+function jwt.decode() {
+  echo "----------------------------------------------------------"
+  echo "Header: "
+  jq -R 'split(".") | .[0] | @base64d | fromjson' <<< $1
+  echo "Payload: "
+  jq -R 'split(".") | .[1] | @base64d | fromjson' <<< $1
+  echo " "
+  echo "----------------------------------------------------------"
+}
+
+function jwt.token.expiry() {
+  EXPIRY=$(jq -R 'split(".") | .[1] | @base64d | fromjson' <<< $1 | jq ".exp")
+  date -r $EXPIRY +%m/%d/%Y:%H:%M:%S
+}
