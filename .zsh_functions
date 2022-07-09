@@ -39,3 +39,12 @@ function design.start() {
 function design.stop() {
   docker container stop excalidraw
 }
+
+# remove all files except specified pattern
+function rm-except () {
+  if [[ $# -eq 0 ]]; then
+    echo 'specify file name pattern to keep'
+	else
+  	find . -type f ! -name $1 -delete
+  fi
+}
