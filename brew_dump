@@ -12,6 +12,7 @@ brew "python@3.9"
 brew "ruby"
 brew "tree"
 brew "zsh"
+brew "tmux"
 cask "drawio"
 cask "font-fira-code"
-cask "tmux"
+
