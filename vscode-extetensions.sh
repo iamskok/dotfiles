@@ -39,3 +39,4 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension WallabyJs.quokka-vscode
 code --install-extension withfig.fig
 code --install-extension wix.vscode-import-cost
+code --install-extension yoavbls.pretty-ts-errors
