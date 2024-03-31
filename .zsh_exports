@@ -6,3 +6,5 @@ export ZSH="/Users/vladimir.skok/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 export STARSHIP_CONFIG=~/.config/starship.toml
 export STARSHIP_CACHE=~/.starship/cache
+# Tell homebrew to not autoupdate every single time I run it (just once a week).
+export HOMEBREW_AUTO_UPDATE_SECS=604800
